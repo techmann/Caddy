@@ -18,10 +18,17 @@ body {
 }
 
 
-h1, h2, h3, h4, h6, #h7, #speed p, #distance p, #tempo p, 
-#topNavigation, #users p, #features p, #scroll p, 
-#screens p, h5, #screen4 li, #users p {
+h1, h2, h3, h4, h6, #h7, #topNavigation, #users p, 
+#scroll p, #screens p, h5, #screen4 li, 
+#users p, #features p {
   font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h6, #h7, #users p, 
+#features p, #scroll p, #screens p, h5, #screen4 li, 
+#users p {
+  color: #fff;
+  font-weight: 300;
 }
 
 h1 {
@@ -29,8 +36,6 @@ h1 {
   display: block;
   float: right;
   width: 30%;
-  color: #fff;
-  font-weight: 100;
   padding-top: 80px;
   padding-right: 105px;
   padding-bottom: 40px;
@@ -41,14 +46,13 @@ h2 {
   display: block;
   float: right;
   width: 20%;
-  color: #fff;
-  font-weight: 100;
   padding-right: 190px;
   padding-bottom: 100px;
 }
 
 h1, h2, h3, h5, h6, ul, menu, dir, hr, #speed p, 
-#distance p, #tempo p, #screens p, #users p {
+#distance p, #tempo p, #screens p, #users p,
+ .signUp ul {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
@@ -113,33 +117,53 @@ h1, h2, h3, h5, h6, ul, menu, dir, hr, #speed p,
   display: block;
   float: left;
   padding-left: 50px;
+  padding-right: 70px;
   position: relative;
   z-index: 1;
   width: 20%;
 }
 
+#catch {
+  display: inline-block;
+}
+
 h3 {
+  text-align: left;
   font-size: 20px;
-  display: block;
-  float: left;
-  width: 40%;
-  color: #fff;
-  font-weight: 300;
   padding-left: 100px;
-  padding-top: 40px;
+  padding-top: 20px;
+}
+
+#features p {
+  padding: 5%;
+  font-size: 18px;
+  text-align: center;
 }
 
 #appstore {
   height: 60px;
   width: 210px;
-  display: block;
-  float: left;
-  padding-left: 50px;
-  padding-top: 20px;
+  float: right;
 }
 
-#featues {
-  display: block;
+/*#features {
+  display: inline-block;
+}*/
+
+#screens p {
+  font-size: 18px;
+  text-align: left;
+  padding: 5%;
+}
+
+.square {
+  height: 200px;
+  width: 20%;
+  background-color: rgba(21, 200, 2, .5);
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+  margin: 1%;
 }
 
 #distance {
@@ -163,69 +187,19 @@ h3 {
   margin-top: 20px;
 }
 
-#square1 {
-  width: 270px;
-  height: 210px;
-  background-color: rgba(73, 73, 73, .3);
-  position: absolute;
-  left: 500px;
-  top: 120px;
-  display: inline-block;
-}
-
-#square2 {
-  width: 270px;
-  height: 210px;
-  background-color: rgba(73, 73, 73, .3);
-  position: absolute;
-  left: 800px;
-  top: 120px;
-  display: inline-block;
-}
-
-#square3 {
-  width: 270px;
-  height: 210px;
-  background-color: rgba(73, 73, 73, .3);
-  position: absolute;
-  left: 1100px;
-  top: 120px;
-  display: inline-block;
-}
-
-#features p {
-  color: #fff;
-  padding: 30px;
-  font-size: 20px;
-  font-weight: 100;
-  text-align: center;
-}
-
-#square3 p {
-  margin-top: 10px;
-}
-
 #scroll {
-  display: block;
+  display: inline-block;
+  float: left;
 }
 
 #downarrow {
-  display: block;
-  float: left;
-  width: 80px;
-  position: relative;
-  top: 390px;
-  right: 595px;
   height: 10px;
   width: auto;
 }
 
  #scroll p {
-  padding-top: 380px;
-  padding-left: 470px;
-  color: #fff;
-  font-weight: 100;
   font-size: 20px;
+  padding-left: 100px;
 }
 
 #screens {
@@ -234,32 +208,6 @@ h3 {
   z-index: 2;
   padding: 2%;
   height: 1000px;
-}
-
-#screens p {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 100;
-  display: block;
-  margin: 30px;
-  padding-top: 50px;
-}
-
-#screenshot {
-  display: inline-block;
-  float: left;
-  margin: 30px;
-}
-
-h5 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 100;
-  display: block;
-  padding-left: 50px;
-  padding-top: 20px;
-  text-align: left;
-  font-style: italic;
 }
 
 .feature {
@@ -280,6 +228,42 @@ h5 {
   float: right;
 }
 
+#screenshot {
+  display: inline-block;
+  float: left;
+  margin: 30px;
+}
+
+h5 {
+  font-size: 20px;
+  display: block;
+  padding-left: 50px;
+  padding-top: 20px;
+  text-align: left;
+  font-style: italic;
+}
+
+<<<<<<< HEAD
+.feature {
+  background-color: rgba(64, 55, 63, .4);
+  width: 49%;
+  height: 420px;
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+#screen1, #screen3 {
+  float: left;
+}
+
+#screen2, #screen4 {
+  float: right;
+}
+
+=======
+>>>>>>> 7d9587588a0004f1eda37ec35d6854a9a096a4ea
 #screen4 p {
   margin: 0px;
   padding: 0px;
@@ -292,11 +276,10 @@ h5 {
 #iphone {
   height: 270px;
   width: auto;
-  padding-right: 10px;
-  margin: 30px;
-  margin-right: 0px;
-  float: left;
+  padding-top: 50px;
   padding-right: 50px;
+  margin: 2%;
+  float: left;
 }
 
 .bullet {
@@ -304,8 +287,6 @@ h5 {
 }
 
 #screen4 li {
-  color: #fff;
-  font-weight: 100;
   margin: 10px;
 }
 
@@ -325,32 +306,30 @@ h5 {
   z-index: 2;
   width: 100%;
   height: 450px;
+  display: inline-block;
 }
 
-#users p {
-  color: #fff;
-  font-weight: 100;
-  font-size: 18px;
+.quote {
   display: inline-block;
   width: 20%;
-  padding-left: 140px;
-  padding-right: 40px;
-  padding-top: 40px;
+  padding-left: 10%;
 }
 
 #users img {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  float: left;
-  padding-left: 200px;
-  padding-right: 150px;
+  width: 70%;
+  height: auto;
+  padding: 2%;
+  display: block;
+  margin: auto;
+}
+
+#users p {
+  font-size: 18px;
+  padding: 1%;
 }
 
 h6 {
-  color: #fff;
   font-size: 24px;
-  font-weight: 300;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -365,9 +344,9 @@ h6 {
 }
 
 .signUp {
-  display: inline;
-  float: left;
-  padding-left: 620px;
+  display: block;
+  width: 40%;
+  margin: 0px auto;
 }
 
 #Landingtextbox {
@@ -392,9 +371,7 @@ h6 {
 }
 
 #h7 {
-  color: #fff;
   font-size: 18px;
-  font-weight: 100;
   text-align: center;
   padding-top: 30px;
   margin: 0px;
@@ -405,7 +382,6 @@ h6 {
   width: 150px;
   height: auto;
   display: block;
-  margin-top: 50px;
-  margin-left: 720px;
+  margin: 20px auto;
 }
 
