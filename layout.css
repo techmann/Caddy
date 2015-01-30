@@ -1,0 +1,119 @@
+/* media query focued on mobile */
+
+    /* Note: Design for a width of 768px */
+
+
+    /*Large*/
+    @media only screen and (min-width: 768px) and (max-width: 1100px) {
+          
+      h1 {
+      font-size: 38px;
+      }
+
+      h2 {
+      font-size: 22px;
+      }
+
+      #home {
+        height: 70%;
+      }
+
+/*      .square img {
+        height: 40%;
+      }*/
+
+      .feature {
+        display: inline-block;
+        width: 40%;
+        height: auto;
+      }
+
+      #screens p {
+      font-size: 16px;
+      text-align: left;
+      padding: 4%;
+      }
+
+      #screenshot {
+      display: inline-block;
+      float: left;
+      margin: 30px;
+      width: 50%;
+      }
+
+      h5 {
+      font-size: 18px;
+      padding-left: 30px;
+      }
+
+      #features {
+        display: inline-block;
+      }
+
+      h3 {
+        font-size: 18px;
+        padding-left: 100px;
+      }
+
+      #iphone {
+        width: 55%;
+        height: auto;
+        padding-right: 30px;
+        margin: 2%;
+        padding-top: 0px;
+        margin-top: 0px;
+      }
+
+      #appstore2 {
+        width: 30%;
+        height: auto;
+        display: inline;
+        margin: 0px;
+        float: right;
+        padding-right: 50px;
+        padding-top: 20px;
+      }
+
+      #screen4 p {
+        font-size: 16px;
+      }
+
+      #screen4 li {
+        font-size: 15px;
+      }
+
+
+
+    /*Medium*/
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+          
+          h1 {
+            font-size: 38px;
+          }
+
+          .feature {
+          width: 100%;
+          }
+
+          #screens p {
+          font-size: 16px;
+          text-align: left;
+          padding: 4%;
+          }
+
+          #screenshot {
+          display: inline-block;
+          float: left;
+          margin: 30px;
+          width: 20%;
+          }
+
+          h5 {
+          font-size: 18px;
+          }
+    }
+
+    /*Small*/
+    @media only screen and (max-width: 479px) {
+
+    }
