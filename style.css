@@ -2,9 +2,10 @@ body {
   margin: 0px;
   background: url("images/teeup.jpg") no-repeat top center fixed;
   background-size: cover;
-  height: 600px;
+  height: 570px;
   width: 100%;
   z-index: 0;
+/*  background-position: 0 -50px;*/
 }
 
 #filter {
@@ -31,25 +32,6 @@ h1, h2, h3, h4, h6, #h7, #users p,
   font-weight: 300;
 }
 
-h1 {
-  font-size: 44px;
-  display: block;
-  float: right;
-  width: 30%;
-  padding-top: 80px;
-  padding-right: 105px;
-  padding-bottom: 40px;
-}
-
-h2 {
-  font-size: 24px;
-  display: block;
-  float: right;
-  width: 20%;
-  padding-right: 190px;
-  padding-bottom: 100px;
-}
-
 h1, h2, h3, h5, h6, ul, menu, dir, hr, #speed p, 
 #distance p, #tempo p, #screens p, #users p,
  .signUp ul {
@@ -60,14 +42,62 @@ h1, h2, h3, h5, h6, ul, menu, dir, hr, #speed p,
   -webkit-padding-start: 0px;
 }
 
+#landing {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+#header1 {
+  height: 70px;
+  background-color: rgba(73, 73, 73, .8);
+  float: right;
+  margin-top: 70px;
+}
+
+#header2 {
+  height: 40px;
+  background-color: rgba(73, 73, 73, .8);
+  float: right;
+  margin-top: 20px;
+}
+
+
+h1 {
+  font-size: 34px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 70px;
+}
+
+h2 {
+  font-size: 24px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+#logo {
+  width: 250px;
+  height: 116px;
+  padding-top: 240px;
+  padding-left: 80px;
+}
+
 #topNavigation {
     font-size: 15px;
 }
 
 #topNavigation ul {
+    vertical-align: middle;
+    line-height: 40px;
     list-style-type: none;
-    padding-top: 30px;
-    padding-right: 100px;
+    padding-right: 70px;
+    padding-top: 10px;
     float: right;
 }
 
@@ -88,21 +118,6 @@ h1, h2, h3, h5, h6, ul, menu, dir, hr, #speed p,
 
 #topNavigation ul li a:hover {
   color: #15c802;
-}
-
-#logo {
-  width: 250px;
-  height: 116px;
-  padding-left: 50px;
-  padding-top: 150px;
-  display: block;
-  float: left;
-}
-
-#landing {
-  display: block;
-  float: right;
-  width: 100%;
 }
 
 #home {

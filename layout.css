@@ -7,20 +7,24 @@
     @media only screen and (min-width: 768px) and (max-width: 1100px) {
           
       h1 {
-      font-size: 38px;
+      font-size: 28px;
       }
 
       h2 {
-      font-size: 22px;
+      font-size: 20px;
+      }
+
+      #logo {
+        width: 250px;
+        height: 116px;
+        float: right;
+        padding-top: 240px;
+        padding-right: 80px;
       }
 
       #home {
         height: 70%;
       }
-
-/*      .square img {
-        height: 40%;
-      }*/
 
       .feature {
         display: inline-block;
@@ -82,13 +86,32 @@
         font-size: 15px;
       }
 
-
+    }
 
     /*Medium*/
     @media only screen and (min-width: 480px) and (max-width: 767px) {
           
+          #topNavigation ul {
+            background-color: rgba(73, 73, 73, .5);
+            padding-top: 0px;
+            padding-right: 20px;
+            font-size: 12px;
+          }
+
           h1 {
-            font-size: 38px;
+          font-size: 24px;
+          }
+
+          h2 {
+          font-size: 18px;
+          }
+
+          #logo {
+            width: 250px;
+            height: 116px;
+            float: right;
+            padding-top: 240px;
+            padding-right: 80px;
           }
 
           .feature {
@@ -115,5 +138,28 @@
 
     /*Small*/
     @media only screen and (max-width: 479px) {
+
+          #topNavigation ul {
+            background-color: rgba(73, 73, 73, .5);
+            padding-top: 0px;
+            padding-right: 20px;
+            font-size: 12px;
+          }
+
+          h1 {
+            font-size: 16px;
+          }
+
+          h2 {
+            font-size: 13px;
+          }
+
+          #logo {
+            width: 250px;
+            height: 116px;
+            float: right;
+            padding-top: 200px;
+            padding-right: 50px;
+          }
 
     }
