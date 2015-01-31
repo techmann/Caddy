@@ -81,29 +81,40 @@ h2 {
   line-height: 40px;
 }
 
-#logo {
-  width: 250px;
-  height: 116px;
-  padding-top: 240px;
-  padding-left: 80px;
+#logo1 {
+  height: 20%;
+  display: block;
+  float: right;
+  padding-top: 150px;
+  padding-right: 20px;
+}
+
+#mobilenav {
+  display: none;
 }
 
 #topNavigation {
     font-size: 15px;
 }
 
+#topNavigation a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: none;
+cursor: auto;
+}
+
 #topNavigation ul {
-    vertical-align: middle;
     line-height: 40px;
     list-style-type: none;
-    padding-right: 70px;
     padding-top: 10px;
+    display: inline-block;
     float: right;
+    padding-right: 20px;
 }
 
 #topNavigation ul li {
-    display: inline;
     padding: 0px 15px;
+    color:#fff;
 }
 
 #topNavigation ul li.selected {
@@ -111,13 +122,9 @@ h2 {
     padding-bottom: 10px;
 }
 
-#topNavigation ul li a {
-    color:#fff;
-    text-decoration: none;
-}
-
-#topNavigation ul li a:hover {
+#topNavigation ul li:hover {
   color: #15c802;
+  background-color: rgba(173, 173, 173, .5);
 }
 
 #home {
@@ -160,10 +167,6 @@ h3 {
   width: 210px;
   float: right;
 }
-
-/*#features {
-  display: inline-block;
-}*/
 
 #screens p {
   font-size: 18px;

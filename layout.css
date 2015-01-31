@@ -92,10 +92,9 @@
     @media only screen and (min-width: 480px) and (max-width: 767px) {
           
           #topNavigation ul {
-            background-color: rgba(73, 73, 73, .5);
-            padding-top: 0px;
+            padding-top: 10px;
             padding-right: 20px;
-            font-size: 12px;
+            font-size: 14px;
           }
 
           h1 {
@@ -139,11 +138,50 @@
     /*Small*/
     @media only screen and (max-width: 479px) {
 
-          #topNavigation ul {
-            background-color: rgba(73, 73, 73, .5);
-            padding-top: 0px;
-            padding-right: 20px;
+          body {
+            background-position: 35% center;
+          }
+
+          #filter {
+            height: 680px;
+          }
+
+          #topNavigation {
+            display: none;
+          }
+
+          #mobilenav {
+            width: 100%;
+            display: inline-block;
+            float: right;
+            line-height: 40px;
+          }
+
+          #mobilenav ul {
             font-size: 12px;
+            text-align: center;
+          }
+
+          #mobilenav ul li {
+            display: inline-block;
+            width: 50%;
+            float: right;
+            background-color: rgba(73, 73, 73, .5);
+          }
+
+          #mobilenav ul li.selected {
+            border-bottom: 4px solid #309852;
+            padding-bottom: 10px;
+          }
+
+          #mobilenav ul li {
+              color:#fff;
+              text-decoration: none;
+          }
+
+          #mobilenav ul li:hover {
+            color: #15c802;
+            background-color: rgba(173, 173, 173, .5);
           }
 
           h1 {
@@ -154,12 +192,11 @@
             font-size: 13px;
           }
 
-          #logo {
-            width: 250px;
-            height: 116px;
-            float: right;
-            padding-top: 200px;
-            padding-right: 50px;
+          #logo1 {
+            height: 15%;
+            margin-bottom: auto;
+            padding-top: 300px;
           }
 
     }
+
