@@ -14,11 +14,18 @@
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+<<<<<<< HEAD
   <link rel="stylesheet" href="stylesheets/base.css">
   <link rel="stylesheet" href="stylesheets/skeleton.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="layout.css">
 
+=======
+<!--   <link rel="stylesheet" href="stylesheets/skeleton.css"> -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="layout.css">
+  
+>>>>>>> 04d85113f639cc47b0c54d6048d854c7a3e9043f
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]>
@@ -31,28 +38,35 @@
 <div id="back">
 <div id="filter">
 
-  <div id="topNavigation">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">FEATURES</a></li>
-            <li><a href="#">SIGN UP</a></li>
-            <li><a href="#">ABOUT</a></li>
-        </ul>
-  </div>
-  <div style="clear:both"></div>
-  
-  <div id="landing">
-        <h1>APPROACH THE BALL WITH CONFIDENCE</h1>
+  <div id="mobilenav">
+      <ul>
+          <a href="#"><li>FEATURES</li></a>
+          <a href="#"><li>SIGN UP</li></a>
+      </ul>
+  </div>  
 
-      <div style="clear:both"></div>
-    
+    <div id="topNavigation">
+          <ul>
+              <a href="#"><li>HOME</li></a>
+              <a href="#"><li>FEATURES</li></a>
+              <a href="#"><li>SIGN UP</li></a>
+              <a href="#"><li>ABOUT</li></a>
+          </ul>
+    </div>  
+
+  <div style="clear: both;"></div>
+  <div id="landing">
+
+    <div id="header1">
+        <h1>APPROACH THE BALL WITH CONFIDENCE</h1>
+    </div>
+     <div style="clear: both;"></div>
+    <div id="header2">
         <h2>Take control of your shots with the power
              of Caddy</h2>
-
-      <!-- <div style="clear:both"></div> -->
-
-      <img src="images/logo.gif" alt="logo" id="logo"/>
-  </div>
+    </div>
+    <div style="clear: both;"></div>
+      <img src="images/logo.png" alt="logo" id="logo1"/>
 
 </div>
 </div>
@@ -60,28 +74,30 @@
 <div id="home">
   <img src="images/home3.png" id="homescreen"/>
 
-  <h3>The frist golfing app designed exclusively for the Apple Watch.</h3>
+  <div id="catch">
+    <h3>The frist golfing app designed exclusively for the Apple Watch.</h3>
 
-  <a href="#"><img src="images/appstore.png" id="appstore" /></a>
+    <a href="#"><img src="images/appstore.png" id="appstore" /></a>
+  </div>
 
   <div id="features">
-    <div id="square1">
+    <div class="square">
       <img src="images/distance1.png" id="distance">
       <p>Measure distance with pinpoint accuracy</p>
     </div>
-    <div id="square2">
+    <div class="square">
       <img src="images/speedometer1.png" id="speedometer">
       <p>View hand and club speed after every shot</p>
     </div>
-    <div id="square3">
+    <div class="square">
       <img src="images/tempo1.png" id="tempo">
       <p>Calculate the tempo of your swing</p>
     </div>
   </div>
 
   <div id="scroll">
+    <p>See the features in action below</p>
     <img src="images/downarrow.png" id="downarrow">
-    <p>See the screens in action below</p>
   </div>
 
 </div>
@@ -122,15 +138,19 @@
 <div id="users">
 
   <h6>Hear from the users</h6>
-    <img src="images/jake.gif"/>
-    <img src="images/jeff.gif"/>
-    <img src="images/stevo.gif"/>
 
-    <p>"I've always had trouble with my tempo on the course. This has been the ultimate tool to correct my backswing with the real-time feedback." - Jake</p>
-
-    <p>"I love this app. It's been so helpful in tracking how far I'm hitting my clubs. It really does make a difference on my scorecard." - Jeff</p>
-
-    <p>"I'm very impressed with the capabilities of Caddy. I've tried other golfing techonologies, but this was by far the easiest to use." - Steve</p>
+    <div class="quote">
+      <img src="images/jake.gif"/>
+      <p>"I've always had trouble with my tempo on the course. This has been the ultimate tool to correct my backswing with the real-time feedback." - Jake</p>
+    </div>
+    <div class="quote">
+       <img src="images/jeff.gif"/>
+       <p>"I love this app. It's been so helpful in tracking how far I'm hitting my clubs. It really does make a difference on my scorecard." - Jeff</p>
+     </div>
+    <div class="quote">
+      <img src="images/stevo.gif"/>
+      <p>"I'm very impressed with the capabilities of Caddy. I've tried other golfing techonologies, but this was by far the easiest to use." - Steve</p>
+    </div>
 
 </div>
 
