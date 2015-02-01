@@ -14,6 +14,14 @@
       font-size: 20px;
       }
 
+      h3 {
+      font-size: 16px;
+      }
+
+      #home {
+        height: 378px;
+      }
+
       #logo {
         width: 250px;
         height: 116px;
@@ -22,8 +30,27 @@
         padding-right: 80px;
       }
 
-      #home {
-        height: 70%;
+      #homescreen {
+        width: 270px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      #features {
+      height: 180px;
+      padding-bottom: 10px;
+      width: 50%;
+      }
+
+      #features p {
+        padding: 2%;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 0px;
+      }
+
+      #scroll p {
+        font-size: 18px;
       }
 
       .feature {
@@ -50,13 +77,10 @@
       padding-left: 30px;
       }
 
-      #features {
-        display: inline-block;
-      }
-
       h3 {
         font-size: 18px;
-        padding-left: 100px;
+        padding-right: 0px;
+        width: 40%;
       }
 
       #iphone {
@@ -91,112 +115,267 @@
     /*Medium*/
     @media only screen and (min-width: 480px) and (max-width: 767px) {
           
-          #topNavigation ul {
-            padding-top: 10px;
-            padding-right: 20px;
-            font-size: 14px;
-          }
+      #topNavigation ul {
+        padding-top: 10px;
+        padding-right: 20px;
+        font-size: 14px;
+      }
 
-          h1 {
-          font-size: 24px;
-          }
+      h1 {
+      font-size: 24px;
+      }
 
-          h2 {
-          font-size: 18px;
-          }
+      h2 {
+      font-size: 18px;
+      }
 
-          #logo {
-            width: 250px;
-            height: 116px;
-            float: right;
-            padding-top: 240px;
-            padding-right: 80px;
-          }
+      #logo {
+        width: 250px;
+        height: 116px;
+        float: right;
+        padding-top: 240px;
+        padding-right: 80px;
+      }
 
-          .feature {
-          width: 100%;
-          }
+      .feature {
+      width: 100%;
+      }
 
-          #screens p {
-          font-size: 16px;
-          text-align: left;
-          padding: 4%;
-          }
+      #home {
+        height: 350px;
+      }
 
-          #screenshot {
-          display: inline-block;
-          float: left;
-          margin: 30px;
-          width: 20%;
-          }
+      #screenshot {
+      display: inline-block;
+      float: left;
+      margin: 30px;
+      width: 20%;
+      }
 
-          h5 {
-          font-size: 18px;
-          }
+      h5 {
+      font-size: 18px;
+      }
+
+      #appstore {
+        padding-bottom: 10px
+      }
+
+      #homescreen {
+        width: 200px;
+        padding-left: 10px;
+        padding-right: 20px;
+      }
+
+      #features {
+        height: 170px;
+        padding-bottom: 10px;
+        width: 50%;
+      }
+
+      #features p {
+        padding: 2%;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 0px;
+      }
+
+      #scroll p {
+        font-size: 16px;
+        padding-left: 100px;
+      }
+
+      .feature {
+        display: inline-block;
+        width: 40%;
+        height: auto;
+      }
+
+      .square {
+        height: 150px;
+        width: 30%;
+      }
+
+      #screens p {
+        font-size: 16px;
+        text-align: left;
+        padding: 4%;
+      }
+
+      #distance {
+        margin-top: 10px;
+      }
+
+      #speedometer {
+        margin-top: 10px;
+      }
+
+      #tempo {
+        margin-top: 10px;
+      }
+
+      h3 {
+        font-size: 16px;
+        padding-right: 0px;
+        padding-top: 10px;
+        width: 50%;
+      }
+
+
     }
 
     /*Small*/
     @media only screen and (max-width: 479px) {
 
-          body {
-            background-position: 35% center;
-          }
+      body {
+        background-position: 35% center;
+      }
 
-          #filter {
-            height: 680px;
-          }
+      #filter {
+        height: 680px;
+      }
 
-          #topNavigation {
-            display: none;
-          }
+      #topNavigation {
+        display: none;
+      }
 
-          #mobilenav {
-            width: 100%;
-            display: inline-block;
-            float: right;
-            line-height: 40px;
-          }
+      #mobilenav {
+        width: 100%;
+        display: inline-block;
+        float: right;
+        line-height: 40px;
+      }
 
-          #mobilenav ul {
-            font-size: 12px;
-            text-align: center;
-          }
+      #mobilenav ul {
+        font-size: 12px;
+        text-align: center;
+      }
 
-          #mobilenav ul li {
-            display: inline-block;
-            width: 50%;
-            float: right;
-            background-color: rgba(73, 73, 73, .5);
-          }
+      #mobilenav ul li {
+        display: inline-block;
+        width: 50%;
+        float: right;
+        background-color: rgba(73, 73, 73, .5);
+      }
 
-          #mobilenav ul li.selected {
-            border-bottom: 4px solid #309852;
-            padding-bottom: 10px;
-          }
+      #mobilenav ul li.selected {
+        border-bottom: 4px solid #309852;
+        padding-bottom: 10px;
+      }
 
-          #mobilenav ul li {
-              color:#fff;
-              text-decoration: none;
-          }
+      #mobilenav ul li {
+          color:#fff;
+          text-decoration: none;
+      }
 
-          #mobilenav ul li:hover {
-            color: #15c802;
-            background-color: rgba(173, 173, 173, .5);
-          }
+      #mobilenav ul li:hover {
+        color: #15c802;
+        background-color: rgba(173, 173, 173, .5);
+      }
 
-          h1 {
-            font-size: 16px;
-          }
+      h1 {
+        font-size: 16px;
+      }
 
-          h2 {
-            font-size: 13px;
-          }
+      h2 {
+        font-size: 13px;
+      }
 
-          #logo1 {
-            height: 15%;
-            margin-bottom: auto;
-            padding-top: 300px;
-          }
+      #logo1 {
+        height: 15%;
+        margin-bottom: auto;
+        padding-top: 300px;
+      }
 
+      .feature {
+      width: 100%;
+      }
+
+      #home {
+        height: 600px;
+      }
+
+      #screenshot {
+      display: inline-block;
+      float: left;
+      margin: 30px;
+      width: 20%;
+      }
+
+      h5 {
+      font-size: 18px;
+      }
+
+      #appstore {
+        float: right;
+        padding-right: 80px;
+      }
+
+      #homescreen {
+        width: 200px;
+        padding-left: 10px;
+        padding-right: 20px;
+      }
+
+      #features {
+        height: 170px;
+        padding-bottom: 10px;
+        width: 100%;
+      }
+
+      #features p {
+        padding: 2%;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 0px;
+      }
+
+      #scroll {
+        width: 100%;
+      }
+
+      #scroll p {
+        font-size: 16px;
+        padding-left: 10px;
+      }
+
+      #downarrow {
+        padding-top: 7px;
+      }
+
+      .feature {
+        display: inline-block;
+        width: 40%;
+        height: auto;
+      }
+
+      .square {
+        height: 150px;
+        width: 30%;
+      }
+
+      #screens p {
+        font-size: 16px;
+        text-align: left;
+        padding: 4%;
+      }
+
+      #distance {
+        margin-top: 10px;
+      }
+
+      #speedometer {
+        margin-top: 10px;
+      }
+
+      #tempo {
+        margin-top: 10px;
+      }
+
+      h3 {
+        font-size: 16px;
+        padding-right: 0px;
+        padding-top: 70px;
+        width: 30%;
+      }
     }
 
