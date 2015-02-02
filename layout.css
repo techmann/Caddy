@@ -235,7 +235,7 @@
     @media only screen and (max-width: 479px) {
 
       body {
-        background-position: 35% center;
+        background-position: 35% 60;
       }
 
       #filter {
@@ -246,11 +246,22 @@
         display: none;
       }
 
+      .mobilelogo {
+        background-image: url(images/caddy_single_logo.png);
+        height: 50px;
+        margin: 5px 10px 5px 10px;
+        width: 200px;
+        float: left;
+        background-size: 120px 50px;
+        background-repeat: no-repeat;
+      }
+
       #mobilenav {
         width: 100%;
         display: inline-block;
         float: right;
-        line-height: 40px;
+        line-height: 60px;
+        background-color: rgba(21, 200, 2, .9);
       }
 
       #mobilenav ul {
@@ -278,6 +289,20 @@
       #mobilenav ul li:hover {
         color: #15c802;
         background-color: rgba(173, 173, 173, .5);
+      }
+
+      #header1 {
+        background-color: rgba(21, 200, 2, .8);
+        width: 100%;
+        margin-top: 150px;
+        height: inherit;
+      }
+
+      #header1 h1 {
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.1em;
       }
 
       h1 {
