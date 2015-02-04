@@ -37,9 +37,9 @@
       }
 
       #features {
-      height: 180px;
-      padding-bottom: 10px;
-      width: 50%;
+        height: 180px;
+        padding-bottom: 10px;
+        width: 50%;
       }
 
       #features p {
@@ -53,28 +53,26 @@
         font-size: 18px;
       }
 
-      .feature {
-        display: inline-block;
-        width: 40%;
-        height: auto;
+      #screens {
+        height: 810px;
       }
 
       #screens p {
-      font-size: 16px;
-      text-align: left;
-      padding: 4%;
+        font-size: 16px;
+        text-align: left;
+        padding: 4%;
       }
 
       #screenshot {
-      display: inline-block;
-      float: left;
-      margin: 30px;
-      width: 50%;
+        display: inline-block;
+        float: left;
+        margin: 30px;
+        width: 50%;
       }
 
       h5 {
-      font-size: 18px;
-      padding-left: 30px;
+        font-size: 18px;
+        padding-left: 30px;
       }
 
       h3 {
@@ -83,31 +81,45 @@
         width: 40%;
       }
 
-      #iphone {
-        width: 55%;
-        height: auto;
-        padding-right: 30px;
-        margin: 2%;
-        padding-top: 0px;
-        margin-top: 0px;
+      .feature {
+        height: 380px;
       }
 
-      #appstore2 {
-        width: 30%;
+      #iphone {
+        width: 50%;
         height: auto;
-        display: inline;
-        margin: 0px;
-        float: right;
-        padding-right: 50px;
         padding-top: 20px;
       }
 
+      #appstore2 {
+        width: 35%;
+        height: auto;
+      }
+
       #screen4 p {
-        font-size: 16px;
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 0px;
       }
 
       #screen4 li {
         font-size: 15px;
+      }
+
+      #appstore2 {
+        padding-top: 5px;
+      }
+
+      #users p {
+        font-size: 16px;
+      }
+
+      #users img {
+        width: 90%;
+      }
+
+      #footer {
+        height: 230px;
       }
 
     }
@@ -122,11 +134,11 @@
       }
 
       h1 {
-      font-size: 24px;
+        font-size: 24px;
       }
 
       h2 {
-      font-size: 18px;
+        font-size: 18px;
       }
 
       #logo {
@@ -138,7 +150,7 @@
       }
 
       .feature {
-      width: 100%;
+        width: 100%;
       }
 
       #home {
@@ -146,14 +158,13 @@
       }
 
       #screenshot {
-      display: inline-block;
-      float: left;
-      margin: 30px;
-      width: 20%;
+        margin: 30px;
+        height: 250px;
+        width: auto;
       }
 
       h5 {
-      font-size: 18px;
+        font-size: 18px;
       }
 
       #appstore {
@@ -185,9 +196,7 @@
       }
 
       .feature {
-        display: inline-block;
-        width: 40%;
-        height: auto;
+        height: 360px;
       }
 
       .square {
@@ -199,6 +208,7 @@
         font-size: 16px;
         text-align: left;
         padding: 4%;
+        padding-top: 50px;
       }
 
       #distance {
@@ -220,6 +230,56 @@
         width: 50%;
       }
 
+      #screens {
+        height: 1600px;
+      }
+
+      #iphone {
+        width: 45%;
+        height: auto;
+      }
+
+      #screen4 {
+        height: 400px;
+      }
+
+      #screen4 p {
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      #appstore2 {
+        padding-top: 10px;
+        margin: 0px;
+      }
+
+      .quote {
+        width: 100%;
+        padding: 0px;
+      }
+
+      #users img {
+        width: 150px;
+        height: auto;
+        float: left;
+        padding-right: 20px;
+      }
+
+      #users p {
+        font-size: 16px;
+        padding: 4%;
+        padding-top: 70px;
+      }
+
+      #users {
+        height: 620px;
+      }
+
+      #footer {
+        height: 220px;
+      }
+
 
     }
 
@@ -227,7 +287,7 @@
     @media only screen and (max-width: 479px) {
 
       body {
-        background-position: 35% center;
+        background-position: 35% 60;
       }
 
       #filter {
@@ -238,23 +298,22 @@
         display: none;
       }
 
+      .mobilelogo {
+        background-image: url(images/caddy_single_logo.png);
+        height: 50px;
+        margin: 5px 10px 5px 10px;
+        width: 150px;
+        float: left;
+        background-size: 120px 50px;
+        background-repeat: no-repeat;
+      }
+
       #mobilenav {
         width: 100%;
         display: inline-block;
         float: right;
-        line-height: 40px;
-      }
-
-      #mobilenav ul {
-        font-size: 12px;
-        text-align: center;
-      }
-
-      #mobilenav ul li {
-        display: inline-block;
-        width: 50%;
-        float: right;
-        background-color: rgba(73, 73, 73, .5);
+        line-height: 60px;
+        background-color: rgba(21, 200, 2, .8);
       }
 
       #mobilenav ul li.selected {
@@ -276,6 +335,10 @@
         font-size: 16px;
       }
 
+      #header1 {
+        margin-top: 150px;
+      }
+
       h2 {
         font-size: 13px;
       }
@@ -283,11 +346,11 @@
       #logo1 {
         height: 15%;
         margin-bottom: auto;
-        padding-top: 300px;
+        padding-top: 270px;
       }
 
       .feature {
-      width: 100%;
+        width: 100%;
       }
 
       #home {
@@ -295,14 +358,16 @@
       }
 
       #screenshot {
-      display: inline-block;
-      float: left;
-      margin: 30px;
-      width: 20%;
+        display: inline-block;
+        float: left;
+        margin: 20px;
+        width: 55%;
       }
 
       h5 {
-      font-size: 18px;
+       font-size: 16px;
+       padding-left: 15px;
+       padding-top: 15px;
       }
 
       #appstore {
@@ -371,11 +436,80 @@
         margin-top: 10px;
       }
 
+      .feature {
+        width: 100%;
+      }
+
       h3 {
         font-size: 16px;
         padding-right: 0px;
         padding-top: 70px;
         width: 30%;
       }
+
+      #iphone {
+        width: 80%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      #screen4 p {
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      #appstore2 {
+        padding-top: 10px;
+        margin: 0px;
+        display: block;
+        margin: auto;
+      }
+
+      #screen4 li {
+        font-size: 14px;
+      }
+
+      #screen4 ul {
+        padding-left: 20px;
+      }
+
+      #screens {
+        height: 1800px;
+      }
+
+      #screen4 {
+        height: 630px;
+      }
+
+      #users {
+        width: 100%;
+        height: 930px;
+      }
+
+      .quote {
+        width: 100%;
+        padding: 0px;
+      }
+
+      #users img {
+        width: 40%;
+      }
+
+      #users p {
+        font-size: 16px;
+        padding: 5%;
+      }
+
+      #wide {
+        width: 100%;
+      }
+
+      #footer {
+        height: 280px;
+      }
+
+
     }
 
